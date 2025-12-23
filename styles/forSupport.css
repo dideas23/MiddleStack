@@ -1,8 +1,10 @@
+@import './colors.css';
+
 body, div, header, aside, section, footer, p, h1,h2, h3, h4, h5, h6, br, ul, ol, li, a, img {margin:0; padding:0} 
 body{
     width: 100%;
     height: 100vh;
-    background-color: orange; 
+    background-color:var(--victor-purple); 
     display: flex; 
     justify-content: center; 
     align-items: center;
